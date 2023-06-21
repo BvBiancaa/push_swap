@@ -25,7 +25,7 @@ $(NAME):
 checker:
 	make -C libftprintf
 	gcc -g checker.c checker_moves.c checker_moves_one.c checker_moves_two.c libftprintf/libftprintf.a -o checker
-	#@clear
+	@clear
 	@echo "\033[0;32m checker is ready \033[0m" 
 
 clean:
